@@ -1,2 +1,3 @@
 # Trabajos
-Tareas de LDOO
+Tareas de LDOO.
+  Clase Martes 8 - 10pm.
