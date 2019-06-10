@@ -1,3 +1,2 @@
-# Trabajos
-Tareas de LDOO.
-  Clase Martes 8 - 10pm.
+# Practica1
+Main.html, Main.css, Main.js
