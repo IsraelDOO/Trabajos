@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Formulario </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="Estilo.css">
+        <script src="Validar.js"></script>
+    </head>
+    <body>
+        <div class="contenedor">
+            <form method="post" action="Form" onsubmit="validar()">
+                <div class="row">
+                    <div class="col-25">
+                        <label for="a"> Nombre </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="text" id="a" name="nombre" placeholder=
+                        "Respuesta.." maxlength="12">
+                    </div>
+		</div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="b"> Contraseña </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="password" id="b" name="contrasena" placeholder=
+                        "Contraseña.." maxlength="30">
+                    </div>
+		</div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="c"> Correo Electrónico </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="email" id="c" name="correo" placeholder=
+                        "Correo.." maxlength="50">
+                    </div>
+		</div>
+                <div class="row">
+                    <div class="col-25">
+                        <label for="d"> Fecha Nacimiento </label>
+                    </div>
+                    <div class="col-75">
+                        <input type="date" id="d" name="fecha" placeholder=
+                        "Fecha de nacimiento..">
+                    </div>
+		</div>
+                <div class="row">
+                    <input type="submit" name="enviar" onclick="mostrarmensaje()">
+		</div>
+		<div class="row">
+                    <input type="reset" name="borrar" onclick="resetear()">
+		</div>
+            </form>
+        </div>
+    </body>
+</html>
